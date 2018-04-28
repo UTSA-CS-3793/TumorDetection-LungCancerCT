@@ -40,6 +40,8 @@ Arguments:
 ## Issues
 The driver may not read the patient image directories on Windows machines. The TrainingModel directory does not have the model.ckpt.data-00000-of-00001 file which is neccessary to load the existing training model (we could not upload this because it is >600MB). The program should be able to save and load new ckpt files though if you create on yourself. 
 
+Current iteration of program doesn't print out accuracy
+
 ### DicomReader.py
 Contains a function to read .dicom files from a directory into a 3D array. Added 
 several other functions that convert the pixel data to hounsfield units and extracts lung
