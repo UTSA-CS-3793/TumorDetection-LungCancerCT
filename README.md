@@ -11,12 +11,13 @@ We hope to achieve the following goals:
  * Keep false positive occurances below 30 percent
 
 ## Dependancies
- * Tensorflow 1.5.1
- * pydicom 1.0.2
- * numpy 1.13.3
- * pandas 0.20.3
- * opencv 3.3.1
- * scipy 1.0.1 
+ * Tensorflow 1.5.1 ```conda install -c conda-forge tensorflow```
+ * pydicom 1.0.2 ```conda install -c conda-forge pydicom```
+ * numpy 1.13.3 ```conda install -c anaconda numpy```
+ * pandas 0.20.3 ```conda install -c anaconda pandas```
+ * opencv 3.3.1 ```conda install -c menpo opencv```
+ * scipy 1.0.1  ```conda install -c anaconda scipy```
+ * scikit-image 0.13.1 ```conda install -c anaconda scikit-image ```
 
 ## How to use
 Arguments:
